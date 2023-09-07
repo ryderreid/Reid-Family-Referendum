@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Reid Family Referendum Online</title>
+    <link rel="stylesheet" href="./style.css">
+
+     <!-- Bootstrap CSS CDN -->
+     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css" integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4" crossorigin="anonymous">
+     <link rel="shortcut icon" href="./favicon 33.ico" type="image/x-icon">
+      <!-- Font Awesome JS -->
+    <script defer src="https://use.fontawesome.com/releases/v5.0.13/js/solid.js" integrity="sha384-tzzSw1/Vo+0N5UhStP3bvwWPq+uvzCMfrN1fEFe+xBmv1C/AtVX5K0uZtmcHitFZ" crossorigin="anonymous"></script>
+    <script defer src="https://use.fontawesome.com/releases/v5.0.13/js/fontawesome.js" integrity="sha384-6OIrr52G08NpOFSZdxxz1xdNSndlD4vdcf/q2myIUVO0VsqaGHJsB0RaBE01VTOY" crossorigin="anonymous"></script>
+</head>
+
+
+<body>
+  <section>
+
+   <div class="px-1">
+    <form id="contact-form">
+      <h1>Reid Family Referendum</h1>
+      <p>You will be fined $57 if you refuse to vote.
+      </p>
+      <div class="bg-dark p-1 w-50 mx-auto"></div>
+      <h3>DIRECTIONS TO VOTER</h3>
+      <h5>Write "YES" or "NO" in the space provided below the "PLACE OF RESIDENCE" box.</h5>
+      <div class="bg-dark p-1 w-50 mx-auto"></div>
+      <h3>A PROPOSED CHANGE</h3>
+      <h5>To rip up the front area lawn of the Reid Family Yard.</h5>
+      <div  id="loading" class="loading  text-center text-primary ">
+        <i class="fas fa-spinner fa-7x"></i>
+      </div>
+      <div  id="successful" class="  text-center text-success ">
+        <i class="fas fa-check fa-7x"></i>
+      </div>
+        <label>Name</label>
+        <input type="text" name="userName" id="userName" required>
+        
+        <label>Place of Residence (Town)</label>
+        <input type="text" name="town" id="town" required>
+
+        <label>Do you approve this proposed alteration?</label>
+        <input type="vote" name="vote" id="vote" required>
+
+            <button class="btn btn-primary mt-2 mx-auto text-center" id="submit" type="submit">Confirm Vote</button>
+            <p>&copy; 2023 Ryder Reid under license to Reid Family Referendum&reg;</p>
+        
+    </form>
+   </div>
+    </section>
+    
+  
+
+     <!-- jQuery CDN - Slim version (=without AJAX) -->
+     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+     <!-- Popper.JS -->
+     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js" integrity="sha384-cs/chFZiN24E4KMATLdqdvsezGxaGsi4hLGOzlXwp5UZB1LY//20VyM2taTB4QvJ" crossorigin="anonymous"></script>
+     <!-- Bootstrap JS -->
+     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js" integrity="sha384-uefMccjFJAIv6A+rW+L4AHf99KvxDjWSu1z9VI8SKNVmz4sk7buKt/6v9KI65qnm" crossorigin="anonymous"></script>
+     <!-- font awesome kit  -->
+     <script src="https://kit.fontawesome.com/ec0fbcc289.js" crossorigin="anonymous"></script>
+    
+<!-- The core Firebase JS SDK is always required and must be listed first -->
+<script src="https://www.gstatic.com/firebasejs/8.2.5/firebase-app.js"></script>
+<script src="https://www.gstatic.com/firebasejs/8.2.5/firebase-database.js"></script>
+<!-- firebase  -->
+
+<script src="./dataFiles.js"></script>
+
+</body>
+</html>

@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+body{
+    font-family: 'Roboto', sans-serif;
+}
+
+form {
+    max-width: 30rem;
+    margin: 30px auto;
+    background: rgb(202, 202, 202);
+    text-align: left;
+    padding: 40px;
+    border-radius: 10px;
+  }
+  label {
+    color: rgb(7, 1, 1);
+    display: inline-block;
+    margin: 25px 0 15px;
+    font-size: .8rem;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-weight: bold;
+  }
+  input{
+    display: block;
+    padding: 10px 6px;
+    width: 100%;
+    box-sizing: border-box;
+    border: none;
+    border-bottom: 1px solid #ddd;
+    color: #555;
+    border-radius: 5px;
+  }
+  .text{
+      height: 8rem;
+      display: block;
+    padding: 10px 6px;
+    width: 100%;
+    box-sizing: border-box;
+    border: none;
+    border-bottom: 1px solid #ddd;
+    color: #555;
+    border-radius: 5px;
+  }
+ .shade{
+     background-color: rgb(202, 202, 202);
+     border-radius: 5px;
+     padding: 2px;
+     margin: 2px;
+ }
+  
+.Skill{
+  display: inline-block;
+    margin: 20px 10px 0 0;
+    padding: 6px 12px;
+    background: #eee;
+    border-radius: 20px;
+    font-size: 12px;
+    letter-spacing: 1px;
+    font-weight: bold;
+    color: #777;
+    cursor: pointer;
+}
+
+ /* button {
+    background: #2074f3;
+    border: 0;
+    padding: 10px 20px;
+    margin-top: 20px;
+    color: white;
+    border-radius: 20px;
+  } */
+  /* .submit {
+    text-align: center;
+  } */
+  .loading{
+    display: none;
+    animation: mymove 5s infinite;
+  }
+  
+  @keyframes mymove {
+    50% {transform: rotate(180deg);}
+  }
+
+.showloading{
+display: block;
+}
+#successful{
+  display: none;
+}
+.showsuccessful{
+  display:block!important;
+}
